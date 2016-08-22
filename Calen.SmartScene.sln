@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calen.SmartScene.Entities", "Calen.SmartScene.Entities\Calen.SmartScene.Entities.csproj", "{4090738B-FCFF-4098-84BB-6C6D314F6FF9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{94061F60-4B7D-4CA8-9C4C-788B0D652DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calen.Map.Configuration", "Calen.Map.Configuration\Calen.Map.Configuration.csproj", "{966EAD7C-543D-4DB8-94F7-B6406596E81D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{4090738B-FCFF-4098-84BB-6C6D314F6FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4090738B-FCFF-4098-84BB-6C6D314F6FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4090738B-FCFF-4098-84BB-6C6D314F6FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966EAD7C-543D-4DB8-94F7-B6406596E81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966EAD7C-543D-4DB8-94F7-B6406596E81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966EAD7C-543D-4DB8-94F7-B6406596E81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966EAD7C-543D-4DB8-94F7-B6406596E81D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{966EAD7C-543D-4DB8-94F7-B6406596E81D} = {94061F60-4B7D-4CA8-9C4C-788B0D652DE3}
 	EndGlobalSection
 EndGlobal
