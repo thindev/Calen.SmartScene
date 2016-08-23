@@ -8,5 +8,6 @@ namespace Calen.Map.Configuration
 {
     public class Class1
     {
+
     }
 }
